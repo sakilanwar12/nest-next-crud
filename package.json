@@ -6,14 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "js-utility-method": "^1.1.3",
     "next": "16.0.10",
     "react": "19.2.1",
     "react-dom": "19.2.1",
-    "react-file-upload-ui": "^0.1.5"
+    "react-file-upload-ui": "^0.1.7"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.18",

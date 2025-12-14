@@ -21,8 +21,8 @@ importers:
         specifier: 19.2.1
         version: 19.2.1(react@19.2.1)
       react-file-upload-ui:
-        specifier: ^0.1.5
-        version: 0.1.5(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
+        specifier: ^0.1.7
+        version: 0.1.7(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
     devDependencies:
       '@tailwindcss/postcss':
         specifier: ^4.1.18
@@ -1629,8 +1629,8 @@ packages:
     peerDependencies:
       react: ^19.2.1
 
-  react-file-upload-ui@0.1.5:
-    resolution: {integrity: sha512-dNupLImMXD8dTxRtV/nez6Y1xQiQ/4AKHKie1Z1Rjj5V3MJbsWqPfUhJWCCQXzpYFyD9+SnWV/SFGaCLfm0cfw==}
+  react-file-upload-ui@0.1.7:
+    resolution: {integrity: sha512-MxDkgINV9Dsh5jJ86Hj70ctKCaDgR70IccncPLqXSxnM2Lw8KJ3CMYdyuI/OkCbldY/su+BvH1D65D8TgR/fMw==}
     peerDependencies:
       react: ^19.0.0
       react-dom: ^19.0.0
@@ -3612,7 +3612,7 @@ snapshots:
       react: 19.2.1
       scheduler: 0.27.0
 
-  react-file-upload-ui@0.1.5(react-dom@19.2.1(react@19.2.1))(react@19.2.1):
+  react-file-upload-ui@0.1.7(react-dom@19.2.1(react@19.2.1))(react@19.2.1):
     dependencies:
       react: 19.2.1
       react-dom: 19.2.1(react@19.2.1)
