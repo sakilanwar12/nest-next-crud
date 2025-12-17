@@ -4,7 +4,6 @@ import {
   PasswordInput,
   Button,
   Stack,
-  Checkbox,
 } from "@mantine/core";
 import useRegisterForm from "./useRegisterForm";
 function RegisterForm() {
@@ -39,12 +38,7 @@ function RegisterForm() {
           {...formProps.getInputProps("password")}
           error={errors.password}
         />
-        <Checkbox
-          label="I agree to sell my privacy"
-          key={key("termsOfService")}
-          {...formProps.getInputProps("termsOfService", { type: "checkbox" })}
-          error={errors.termsOfService}
-        />
+
         <Button fullWidth mt="xl" type="submit">
           Sign up
         </Button>
