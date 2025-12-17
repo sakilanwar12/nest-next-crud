@@ -12,3 +12,5 @@ export const authApi = {
     },
   },
 };
+
+export const registerUser = authApi.endpoints.register.mutation;

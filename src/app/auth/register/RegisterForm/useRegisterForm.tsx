@@ -1,5 +1,6 @@
 import { useForm } from "@mantine/form";
- import { authApi } from "@/store/api/auth/auth-api"; 
+import { registerUser } from "@/store/api/auth/auth-api";
+import { notifications } from "@mantine/notifications";
 
 import { initialFormValues } from "./initialFormValues";
 import { validator } from "./validator";
@@ -14,7 +15,13 @@ function useRegisterForm() {
 
   const handleRegister = async (values: TUserRegisterArgs) => {
     try {
-      await authApi.endpoints.register.mutation(values);
+      await registerUser(values);
+      notifications.show({
+        title: "Success",
+        message: "Registration successful",
+        color: "green",
+        position: "top-right",
+      });
     } catch (error) {
       console.error(error);
       formProps.setFieldError(
